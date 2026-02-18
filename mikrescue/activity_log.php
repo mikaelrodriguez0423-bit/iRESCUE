@@ -23,6 +23,7 @@ require_once 'header.php';
             <input type="text" class="search-input" placeholder="Search logs…" data-table="logs-table" data-search>
         </div>
     </div>
+    
     <div style="overflow-x:auto;">
         <table id="logs-table">
             <thead>
@@ -50,7 +51,9 @@ require_once 'header.php';
             <?php endif; ?>
             </tbody>
         </table>
+    
     </div>
+    
 </div>
 
 <?php require_once 'footer.php'; ?>
