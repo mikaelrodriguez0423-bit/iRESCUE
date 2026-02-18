@@ -178,4 +178,5 @@ CREATE TABLE `login_attempts` (
   KEY `ip_address` (`ip_address`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+
 COMMIT;
