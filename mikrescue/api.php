@@ -81,5 +81,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $action === 'update_status') {
 // =============================================
 // Fallthrough
 // =============================================
+
 http_response_code(400);
 json_response(false, 'Unknown action.');
